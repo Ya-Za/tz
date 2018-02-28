@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+    <style>
+        th.title {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 32px;
+        }
+
+        table {
+            text-align: center;
+            margin: auto;
+        }
+
+        div#clocks {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="clocks">
+        <h1></h1>
+        <!-- Clocks -->
+        <table>
+            <tr>
+                <th class="title">Salt Lake City, USA (-07:00)</th>
+                <th class="title">Greenwich, UK</th>
+                <th class="title">Tehran, Iran (+03:30)</th>
+            </tr>
+            <tr>
+                <!-- Analog -->
+                <td>
+                    <!-- Salt Lake City -->
+                    <iframe src="http://free.timeanddate.com/clock/i64qndk4/n220/szw400/szh400/hbw0/hfc000/cf100/hgr0/fav0/fiv0/mqcfff/mql15/mqw4/mqd94/mhcfff/mhl15/mhw4/mhd94/mmv0/hwm2/hhcbbb/hmcddd"
+                        frameborder="0" width="400" height="400"></iframe>
+                </td>
+                <td>
+                    <!-- Greenwhich -->
+                    <iframe src="http://free.timeanddate.com/clock/i64qndk4/n769/szw400/szh400/hbw0/hfc000/cf100/hgr0/fav0/fiv0/mqcfff/mql15/mqw4/mqd94/mhcfff/mhl15/mhw4/mhd94/mmv0/hwm2/hhcbbb/hmcddd"
+                        frameborder="0" width="400" height="400"></iframe>
+                </td>
+                <td>
+                    <!-- Tehran -->
+                    <iframe src="http://free.timeanddate.com/clock/i64qndk4/n246/szw400/szh400/hbw0/hfc000/cf100/hgr0/fav0/fiv0/mqcfff/mql15/mqw4/mqd94/mhcfff/mhl15/mhw4/mhd94/mmv0/hwm2/hhcbbb/hmcddd"
+                        frameborder="0" width="400" height="400"></iframe>
+                </td>
+            </tr>
+            <tr>
+                <!-- Digital -->
+                <td>
+                    <!-- Salt Lake City -->
+                    <iframe src="http://free.timeanddate.com/clock/i64ppkhy/n220/fn11/fs32/ftb/tt0/tw1/tm1/ts1/tb4" frameborder="0" width="244"
+                        height="80"></iframe>
+                </td>
+                <td>
+                    <!-- Greenwhich -->
+                    <iframe src="http://free.timeanddate.com/clock/i64ppkhy/n769/fn11/fs32/ftb/tt0/tw1/tm1/ts1/tb4" frameborder="0" width="244"
+                        height="80"></iframe>
+                </td>
+                <td>
+                    <!-- Tehran -->
+                    <iframe src="http://free.timeanddate.com/clock/i64ppkhy/n246/fn11/fs32/ftb/tt0/tw1/tm1/ts1/tb4" frameborder="0" width="244"
+                        height="80"></iframe>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
