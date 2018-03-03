@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width">
     <title>YaZa - Time Zone</title>
     <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
         th.title {
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             font-size: 32px;
@@ -16,16 +24,22 @@
             margin: auto;
         }
 
-        div#clocks {
-            width: 100%;
-            height: 100%;
+        .center {
+            position: relative;
+            left: 50%;
+            top: 50%;
+
+            /* IE 9 */
+            -ms-transform: translate(-50%, -50%);
+            /* Safari */
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 
 <body>
-    <div id="clocks">
-        <h1></h1>
+    <div class="center">
         <!-- Clocks -->
         <table>
             <tr>
